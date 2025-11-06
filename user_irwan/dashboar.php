@@ -11,19 +11,19 @@ $produk = [
         "nama" => "Kopi Arabika Gayo",
         "harga" => "Rp 80.000",
         "deskripsi" => "Kopi khas Aceh dengan aroma kuat.",
-        "gambar" => "images/kopiarabika.jpg"
+        "gambar" => "images/kopiarabika.jpeg"
     ],
     [
         "nama" => "Kopi Toraja",
         "harga" => "Rp 75.000",
         "deskripsi" => "Kopi dengan cita rasa khas pegunungan Toraja.",
-        "gambar" => "images/kopitoraja.jpg"
+        "gambar" => "images/kopitoraja.jpeg"
     ],
     [
         "nama" => "Kopi Robusta Lampung",
         "harga" => "Rp 60.000",
         "deskripsi" => "Rasa kuat dengan aftertaste cokelat khas.",
-        "gambar" => "images/kopirobusta.jpg"
+        "gambar" => "images/kopirobusta.jpeg"
     ]
 ];
 ?>
