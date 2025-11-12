@@ -49,5 +49,10 @@
             border: 3px solid #c49a6c;
             box-shadow: 0 0 15px rgba(0,0,0,0.3);
         }
+ .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            color: #f2d7b6;
+        }
 
 
