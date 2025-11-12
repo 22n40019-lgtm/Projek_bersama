@@ -41,4 +41,13 @@
             position: relative;
             z-index: 1;
         }
+.logo {
+            width: 120px;
+            height: auto;
+            border-radius: 50%;
+            margin-bottom: 20px;
+            border: 3px solid #c49a6c;
+            box-shadow: 0 0 15px rgba(0,0,0,0.3);
+        }
+
 
