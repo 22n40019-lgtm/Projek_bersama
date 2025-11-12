@@ -80,6 +80,8 @@ footer {
             font-size: 0.9rem;
             color: #cfcfcf;
         }
+ </style>
+</head>
 
 
 
