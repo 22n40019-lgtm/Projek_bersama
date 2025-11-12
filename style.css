@@ -28,9 +28,7 @@ body {
     transition: 0.3s;
 }
 
-.btn:hover {
-    background-color: #4e342e;
-}
+
 
 footer {
     background-color: #3e2723;
@@ -70,6 +68,7 @@ input {
     width: 100%;
     border-radius: 12px;
 }
+
 
 
 
