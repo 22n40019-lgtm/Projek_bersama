@@ -6,12 +6,6 @@ body {
     text-align: center;
 }
 
-.hero {
-    background: url('images/banner.jpg') no-repeat center center/cover;
-    padding: 100px 20px;
-    color: white;
-    text-shadow: 1px 1px 3px #000;
-}
 
 .logo {
     width: 100px;
@@ -70,3 +64,4 @@ input {
     width: 100%;
     border-radius: 12px;
 }
+
