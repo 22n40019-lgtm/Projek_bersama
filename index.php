@@ -68,6 +68,12 @@
             font-weight: bold;
             transition: 0.3s;
         }
+.btn:hover {
+            background-color: #a07854;
+            color: #fff;
+            transform: scale(1.05);
+        }
+
 
 
 
