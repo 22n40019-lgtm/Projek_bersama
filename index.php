@@ -73,6 +73,13 @@
             color: #fff;
             transform: scale(1.05);
         }
+footer {
+            background-color: #1e1b1a;
+            text-align: center;
+            padding: 15px 0;
+            font-size: 0.9rem;
+            color: #cfcfcf;
+        }
 
 
 
