@@ -89,6 +89,11 @@ footer {
         <p>Temukan berbagai varian kopi lokal pilihan dengan cita rasa terbaik dari nusantara.</p>
         <a href="login.php" class="btn">Login untuk Admin</a>
     </header>
+<footer>
+        <p>© 2025 Kopi Kita | Semua Hak Dilindungi</p>
+    </footer>
+</body>
+</html>
 
 
 
