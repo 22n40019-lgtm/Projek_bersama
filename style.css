@@ -43,11 +43,7 @@ footer {
     margin-top: 50px;
 }
 
-input {
-    padding: 8px;
-    border: 1px solid #8d6e63;
-    border-radius: 6px;
-}
+
 
 .produk-container {
     display: flex;
@@ -70,6 +66,7 @@ input {
     width: 100%;
     border-radius: 12px;
 }
+
 
 
 
