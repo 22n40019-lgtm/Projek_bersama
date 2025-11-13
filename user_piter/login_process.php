@@ -5,13 +5,19 @@ session_start();
 $admin_user = "admin";
 $admin_pass = "kopikita";
 
-$username = $_POST['username'];
-$password = $_POST['password'];
+// Ambil input
+$username = trim($_POST['username']);
+$password = trim($_POST['password']);
 
 if ($username === $admin_user && $password === $admin_pass) {
     $_SESSION['username'] = $username;
     header("Location: dashboard.php");
+    exit();
 } else {
-    echo "<script>alert('Username atau password salah!'); window.location='login.php';</script>";
+    echo "<script>
+        alert('Username atau password salah!');
+        window.location.href = 'login.php';
+    </script>";
+    exit();
 }
 ?>
