@@ -1,39 +1,34 @@
 <?php
 session_start();
 if (!isset($_SESSION['username'])) {
-    header("Location: login.php");
-    exit();
+        header("Location: login.php");
+        exit();
 }
 
 // Data produk tanpa database (simulasi)
-$produk = [
+
     [
         "nama" => "Kopi Arabika Gayo",
         "harga" => "Rp 80.000",
         "deskripsi" => "Kopi khas Aceh dengan aroma kuat.",
         "gambar" => "images/kopiarabika.jpeg"
     ],
+
     [
         "nama" => "Kopi Toraja",
         "harga" => "Rp 75.000",
         "deskripsi" => "Kopi dengan cita rasa khas pegunungan Toraja.",
         "gambar" => "images/kopitoraja.jpeg"
-    ],
-    [
-        "nama" => "Kopi Robusta Lampung",
-        "harga" => "Rp 60.000",
-        "deskripsi" => "Rasa kuat dengan aftertaste cokelat khas.",
-        "gambar" => "images/kopirobusta.jpeg"
-    ]
-];
+        ]
+        ];
 ?>
 <!DOCTYPE html>
 <html lang="id">
-<head>
-    <meta charset="UTF-8">
-    <title>Dashboard Admin - Kopi Kita</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <head>
+            <meta charset="UTF-8">
+          <title>Dashboard Admin - Kopi Kita</title>
+            <link rel="stylesheet" href="style.css">
+        </head>
 <body>
     <h2>Selamat Datang, <?= htmlspecialchars($_SESSION['username']); ?>!</h2>
     <h3>Daftar Produk Kopi Kita</h3>
@@ -52,3 +47,4 @@ $produk = [
     <a href="logout.php" class="btn">Logout</a>
 </body>
 </html>
+
